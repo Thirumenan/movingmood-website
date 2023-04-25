@@ -1,13 +1,12 @@
 @font-face{
-    font-family:gilroy;
-    src:url(Gilroy-Reguler.ttf);
+    font-family:myfont;
+    src:url(Gilroy-Regular.ttf);
 }
 * {
     margin:0;
     padding: 0;
     font-size: 25px;
-    font-family:gilroy;
-    
+    font-family:myfont;   
 }
 .banner{
     width: 100%;
@@ -39,7 +38,6 @@
 .navbar ul li a{
     text-decoration: none;
     color:#617487;
-    text-transform: uppercase;
 }
 .navbar ul li ::after {
     content:'';
@@ -57,7 +55,7 @@
 .content h1{
     cursor: pointer;
     width:100%;
-    font-size: 65px;
+    font-size: 66px;
     position: absolute;
     top: 580px;
     left: 244px;
